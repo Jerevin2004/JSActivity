@@ -12,4 +12,5 @@ const descriptions = cart.map(item => `${item.name} - ₱${item.price}`);
 console.log("Item descriptions:", descriptions);
 
 const totalCartValue = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+
 console.log(`Total cart value: ₱${totalCartValue}`);
