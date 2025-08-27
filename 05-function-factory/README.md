@@ -5,7 +5,7 @@
     ```js
     const double = makeMultiplier(2);
     console.log(double(5)); // 10
-    ```
+    ``
 2. Create `makeGreeter(greeting)` that returns a personalized greeting function:
     ```js
     const sayHi = makeGreeter("Hi");
